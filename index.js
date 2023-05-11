@@ -9,7 +9,6 @@ function showContries() {
         const countryCardImage = document.createElement("img");
         countryCard.innerHTML = country.name.official;
         countryCardImage.src = country.flags.png;
-        console.log(countryCardImage.src);
         countryCard.appendChild(countryCardImage);
         document.getElementById("feed").appendChild(countryCard);
       });

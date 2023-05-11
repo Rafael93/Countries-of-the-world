@@ -1,0 +1,17 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+#feed {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#feed div {
+  display: inline-grid;
+  text-align: center;
+  border: solid black 1px;
+  text-transform: capitalize;
+}
